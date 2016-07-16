@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <config>
     <fieldset
-            name="greetings"
-            label="COM_SERVICEBLOCK_CONFIG_GREETING_SETTINGS_LABEL"
-            description="COM_SERVICEBLOCK_CONFIG_GREETING_SETTINGS_DESC"
+            name="headings"
+            label="COM_SERVICEBLOCK_CONFIG_HEADING_SETTINGS_LABEL"
+            description="COM_SERVICEBLOCK_CONFIG_HEADING_SETTINGS_DESC"
     >
         <field
                 name="show_category"

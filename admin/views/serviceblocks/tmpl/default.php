@@ -48,7 +48,7 @@ $listDirn = $this->escape($this->state->get('list.direction'));
                         <?php echo JHtml::_('grid.sort', 'JSTATUS', 'a.state', $listDirn, $listOrder); ?>
                     </th>
                     <th width="60%">
-                        <?php echo JHtml::_('grid.sort', 'COM_SERVICEBLOCK_SERVICEBLOCKS_NAME', 'greeting', $listDirn, $listOrder); ?>
+                        <?php echo JHtml::_('grid.sort', 'COM_SERVICEBLOCK_SERVICEBLOCKS_NAME', 'heading', $listDirn, $listOrder); ?>
                     </th>
                     <th width="25%">
                         <?php echo JHtml::_('grid.sort', 'COM_SERVICEBLOCK_SERVICEBLOCK_FIELD_CATID_LABEL', 'title', $listDirn, $listOrder); ?>
@@ -85,7 +85,7 @@ $listDirn = $this->escape($this->state->get('list.direction'));
                             <td>
                                 <a href="<?php echo $link; ?>"
                                    title="<?php echo JText::_('COM_SERVICEBLOCK_EDIT_SERVICEBLOCK'); ?>">
-                                    <?php echo $item->greeting; ?>
+                                    <?php echo $item->heading; ?>
                             </td>
                             <td>
                                 <?php echo $item->title; ?>

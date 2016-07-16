@@ -11,13 +11,13 @@
                 type="hidden"
         />
         <field
-                name="greeting"
+                name="heading"
                 type="text"
-                label="COM_SERVICEBLOCK_SERVICEBLOCK_GREETING_LABEL"
-                description="COM_SERVICEBLOCK_SERVICEBLOCK_GREETING_DESC"
+                label="COM_SERVICEBLOCK_SERVICEBLOCK_HEADING_LABEL"
+                description="COM_SERVICEBLOCK_SERVICEBLOCK_HEADING_DESC"
                 size="40"
-                class="inputbox validate-greeting"
-                validate="greeting"
+                class="inputbox validate-heading"
+                validate="heading"
                 required="true"
                 default=""
         />
@@ -108,7 +108,8 @@
         <field
                 name="blockmessage"
                 type="editor"
-                label="message"
+                label="COM_SERVICEBLOCK_BLOCK_MESSAGE_"
+                description="COM_SERVICEBLOCK_BLOCK_MESSAGE_DESC"
                 filter="raw"
         />
     </fieldset>

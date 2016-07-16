@@ -10,8 +10,8 @@
             <field
                 name="id"
                 type="serviceblock"
-                label="COM_SERVICEBLOCK_SERVICEBLOCK_FIELD_GREETING_LABEL"
-                description="COM_SERVICEBLOCK_SERVICEBLOCK_FIELD_GREETING_DESC"
+                label="COM_SERVICEBLOCK_SERVICEBLOCK_FIELD_HEADING_LABEL"
+                description="COM_SERVICEBLOCK_SERVICEBLOCK_FIELD_HEADING_DESC"
             />
         </fieldset>
     </fields>

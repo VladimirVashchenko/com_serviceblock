@@ -85,7 +85,7 @@ JFactory::getDocument()->addStyleDeclaration($css);
                 <ul style="list-style: none;">
                     <li class="service">
                         <div class="block_title_container">
-                            <h1 id="title"><?php echo $this->item->greeting; ?></h1>
+                            <h1 id="title"><?php echo $this->item->heading; ?></h1>
                         </div>
                         <hr>
 

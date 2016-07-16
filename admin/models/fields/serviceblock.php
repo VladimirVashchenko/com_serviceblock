@@ -37,7 +37,7 @@ class JFormFieldServiceBlock extends JFormFieldList
     {
         $db = JFactory::getDBO();
         $query = $db->getQuery(true);
-        $query->select('#__serviceblock.id as id, #__serviceblock.greeting, #__serviceblock.catid');
+        $query->select('#__serviceblock.id as id, #__serviceblock.heading, #__serviceblock.catid');
         $query->from('#__serviceblock');
         $query->leftJoin('#__categories on #__serviceblock.catid=#__categories.id');
         // Retrieve only published items
@@ -48,7 +48,7 @@ class JFormFieldServiceBlock extends JFormFieldList
 
         if ($messages) {
             foreach ($messages as $message) {
-                $options[] = JHtml::_('select.option', $message->id, $message->greeting);
+                $options[] = JHtml::_('select.option', $message->id, $message->heading);
             }
         }
 

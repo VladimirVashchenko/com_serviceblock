@@ -30,7 +30,7 @@ class ServiceBlockModelServiceCategory extends JModelList
         {
             $config['filter_fields'] = array(
                 'id',               'h.id',
-                'greeting',         'h.greeting',
+                'heading',         'h.heading',
                 'heading_size',     'h.heading_size',
                 'catid',            'h.catid',
                 'svgpath',          'h.svgpath',
@@ -60,7 +60,7 @@ class ServiceBlockModelServiceCategory extends JModelList
         $query->select(
             $this->getState(
                 'list.select',
-                'h.greeting, '.
+                'h.heading, '.
                 'h.heading_size, '.
                 'h.catid, '.
                 'h.svgpath, '.
